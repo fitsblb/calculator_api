@@ -57,8 +57,4 @@ api.add_resource(Divide, '/divide')
 if __name__ == '__main__':
     app.run(debug=True)
 
-# Test in your browser or Postman:
-# Addition: http://127.0.0.1:5000/add?num1=10&num2=5
-# Subtraction: http://127.0.0.1:5000/subtract?num1=10&num2=5
-# Multiplication: http://127.0.0.1:5000/multiply?num1=10&num2=5
-# Division: http://127.0.0.1:5000/divide?num1=10&num2=5
+
